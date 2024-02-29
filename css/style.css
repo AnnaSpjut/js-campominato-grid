@@ -3,3 +3,29 @@
   margin: 0;
   padding: 0;
 }
+
+.main-wrapper{
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  /* border: 1px solid black; */
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
