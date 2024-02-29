@@ -9,6 +9,8 @@ Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro e
 1. creare macro struttura in html
 2. const prendere e salvare il container
 3. reset
-4. for ciclo con 100 ripetizioni
-5. html creare box con classe da aggiungere ad ogni ciclo
+4. for ciclo con 100 repeat
+5. js creare box (getBox) da aggiungere ad ogni ciclo
+6. eventListener con classe clicked per colorare il box al click
+7. eventListener associare i numeri ai box 
 
