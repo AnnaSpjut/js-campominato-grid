@@ -1,14 +1,18 @@
 const container = document.querySelector('.container')
+const btnPlay = document.getElementById('play-btn')
 
-reset();
-
-for(let i = 1; i <= 100; i++){
-  const box = getBox(i);
-  container.append(box)
-}
-
+btnPlay.addEventListener('click', init);
 
 // functions////
+
+function init(){
+  reset();
+  for(let i = 1; i <= 100; i++){
+    const box = getBox(i);
+    container.append(box)
+  }
+}
+
 
 function getBox(i){
   const box = document.createElement('div');

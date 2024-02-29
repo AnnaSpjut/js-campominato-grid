@@ -13,4 +13,5 @@ Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro e
 5. js creare box (getBox) da aggiungere ad ogni ciclo
 6. eventListener con classe clicked per colorare il box al click
 7. eventListener associare i numeri ai box 
+8. aggiungere btn play con const e eventListener
 
