@@ -4,7 +4,6 @@ reset();
 
 for(let i = 1; i <= 100; i++){
   const box = getBox(i);
-  console.log(box);
   container.append(box)
 }
 
@@ -17,7 +16,8 @@ function getBox(i){
   box._boxId = i;
 
   box.addEventListener('click', function(){
-  console.log(this._boxId);  
+  console.log(this._boxId);
+  this.classList.add('clicked')  
 
   })
 
